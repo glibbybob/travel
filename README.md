@@ -1,2 +1,2 @@
-# travel
-website too take you all around the land down under!
+# travel page
+website to take you all around the land down under!
