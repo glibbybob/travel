@@ -14,7 +14,7 @@ function validate(){
     error_message.innerHTML = text; 
     return false;                          
   }
-  if(isNaN(phone1) || phone1.length != 10){            
+  if(isNaN(phone1) || phone1.length >=11){            
   text = "Please Enter valid Phone Number";
     error_message.innerHTML = text;
     return false;
@@ -24,9 +24,9 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  if(message1.length <= 140){
+  if(message1.length >999){
 
-    text = "Please Enter More Than 140 Characters";
+    text = "Please Enter Less Than 1000 Characters";
     error_message.innerHTML = text;
     return false;
   }
@@ -164,7 +164,16 @@ font-size:20px;
 <<header>
 <h1  align=center> Welcome to Australia!</h1>
 <nav>
-<font size=5><ul><li><a href ="index.html">Home</a></li><li><a href ="cities.html">Cities</a></li><li><a href ="landmark.html">Landmarks</a></li><li><a href ="contactus.html">Contact Us</a></li></ul></font></nav></header>
+<font size=5>
+<ul>
+<li><a href ="index.html">Home</a></li>
+<li><a href ="cities.html">Cities</a></li>
+<li><a href ="landmark.html">Landmarks</a></li>
+<li><a href ="contactus.html">Contact Us</a></li>
+</ul>
+</font>
+</nav>
+</header>
 
 <main>
  <div class= 'wrapper'>
